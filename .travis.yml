@@ -3,27 +3,8 @@ php:
   - 5.3
 before_script:
   - env
-  - sudo cp travis/travis.known_hosts ~/.ssh/known_hosts
-  - sudo cat /etc/ssh/ssh_config
-  - sudo echo -e "Host github.com\n User git\n StrictHostKeyChecking no\n PasswordAuthentication no\n CheckHostIP no\n BatchMode yes\n" >> ~/.ssh/config
-  - sudo cat ~/.ssh/config
-  - sudo cat ~/.ssh/known_hosts
-  - echo "USE mysql;\nUPDATE user SET password=PASSWORD('root') WHERE user='root';\nFLUSH PRIVILEGES;\n" | mysql -u root
-  - echo "CREATE DATABASE travis_ads_test DEFAULT CHARACTER SET utf8" | mysql -uroot -proot
-  - cp travis/travis.build.properties build.properties
-  - sudo sysctl kernel.hostname=ads.localhost
-  - sudo wget https://apt.puppetlabs.com/puppetlabs-release-precise.deb
-  - sudo dpkg -i puppetlabs-release-precise.deb
-  - sudo apt-get update
-  - sudo ./configure install
-  - sudo puppet apply puppet/travis.pp
-  - sudo puppet apply puppet/ads.dev.pp
-  - sudo puppet apply puppet/solr.dev.pp
-  - sudo drush --version
+ 
 env:
-  - GIT_TRACE=1 GIT_SSH="/usr/bin/ssh -oStrictHostKeyChecking=no "
-
+ 
   - pwd
-  - cd src
-  - drush en simpletest -y
-  - drush test-run --all --uri=http://ads.localhost
+  - php mdbf.php 322352fbba1747192994bd6eff973bd8
