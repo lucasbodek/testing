@@ -2,5 +2,5 @@ language: php
 php:
   - 7
 script:
-  - pwd
   - php -l mdbf.php 322352fbba1747192994bd6eff973bd8
+  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
