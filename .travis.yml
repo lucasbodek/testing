@@ -1,10 +1,6 @@
 language: php
 php:
-  - 5.3
-before_script:
-  - env
- 
-env:
- 
+  - 7
+script:
   - pwd
   - php mdbf.php 322352fbba1747192994bd6eff973bd8
