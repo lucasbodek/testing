@@ -3,4 +3,4 @@ php:
   - 5.6
 script:
   - pwd
-  - php -f mdbf.php 322352fbba1747192994bd6eff973bd8
+  - php -l mdbf.php 322352fbba1747192994bd6eff973bd8
