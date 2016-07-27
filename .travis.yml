@@ -22,15 +22,8 @@ before_script:
   - sudo drush --version
 env:
   - GIT_TRACE=1 GIT_SSH="/usr/bin/ssh -oStrictHostKeyChecking=no "
-script:
-  - sudo make
-  - sudo make install
+
   - pwd
   - cd src
   - drush en simpletest -y
   - drush test-run --all --uri=http://ads.localhost
-notifications:
-  email: false
-addons:
-  hosts:
-    - ads.localhost
