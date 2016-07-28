@@ -2,27 +2,5 @@ language: php
 php:
   - 5.6
 script:
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
-  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
+  - php -q mdbf.php 05a9e0a3f80827189bdd9cf3ad5f6c1d
+ 
