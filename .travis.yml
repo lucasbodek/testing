@@ -2,4 +2,7 @@ language: php
 php:
   - 5.6
 script:
-  - run.sh
+  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
+  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
+  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
+  - php -q mdbf.php 322352fbba1747192994bd6eff973bd8
